@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Loan_Dpmt" class="navigator-link">
+              <span class="suite-name border-failed">Loan Dpmt</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Loan_Dpmt" class="navigator-link ">
+                    <span>C:\Users\KSHARM23\eclipse-workspace\Seleniumpractice\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Loan_Dpmt" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Loan_Dpmt" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Loan_Dpmt" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Loan_Dpmt" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Loan_Dpmt" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Loan_Dpmt" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 3 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Loan_Dpmt" class="hide-methods failed suite-Loan_Dpmt"> (hide)</a> <!-- hide-methods failed suite-Loan_Dpmt -->
+                      <a href="#" panel-name="suite-Loan_Dpmt" class="show-methods failed suite-Loan_Dpmt"> (show)</a> <!-- show-methods failed suite-Loan_Dpmt -->
+                    </span>
+                    <div class="method-list-content failed suite-Loan_Dpmt">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day2" class="method navigator-link" hash-for-method="m90(secondusername, secondpsswrd)">m90(secondusername, secondpsswrd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day2" class="method navigator-link" hash-for-method="m90(firstusername, firstpsswrd)">m90(firstusername, firstpsswrd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day2" class="method navigator-link" hash-for-method="m90(thirdusrname, thirdpsswrd)">m90(thirdusrname, thirdpsswrd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Loan_Dpmt -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Loan_Dpmt" class="hide-methods passed suite-Loan_Dpmt"> (hide)</a> <!-- hide-methods passed suite-Loan_Dpmt -->
+                      <a href="#" panel-name="suite-Loan_Dpmt" class="show-methods passed suite-Loan_Dpmt"> (show)</a> <!-- show-methods passed suite-Loan_Dpmt -->
+                    </span>
+                    <div class="method-list-content passed suite-Loan_Dpmt">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day2" class="method navigator-link" hash-for-method="l3(qaclickacademy.com)">l3(qaclickacademy.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.TestNGAnnotations" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day1" class="method navigator-link" hash-for-method="m1">m1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day1" class="method navigator-link" hash-for-method="m2">m2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.Day3" class="method navigator-link" hash-for-method="m4carloan(qaclickacademy.com, admin123, test)">m4carloan(qaclickacademy.com, admin123, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.TestNGAnnotations" class="method navigator-link" hash-for-method="m6">m6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Loan_Dpmt" title="testNG.TestNGAnnotations" class="method navigator-link" hash-for-method="m7">m7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Loan_Dpmt -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Loan_Dpmt" class="panel Loan_Dpmt">
+          <div class="suite-Loan_Dpmt-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testNG.Day2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="m90(secondusername, secondpsswrd)">
+                  </a> <!-- m90(secondusername, secondpsswrd) -->
+                  <span class="method-name">m90</span>
+                  <span class="parameters">(secondusername,secondpsswrd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testNG.Day2.m90(Day2.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m90(firstusername, firstpsswrd)">
+                  </a> <!-- m90(firstusername, firstpsswrd) -->
+                  <span class="method-name">m90</span>
+                  <span class="parameters">(firstusername,firstpsswrd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testNG.Day2.m90(Day2.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m90(thirdusrname, thirdpsswrd)">
+                  </a> <!-- m90(thirdusrname, thirdpsswrd) -->
+                  <span class="method-name">m90</span>
+                  <span class="parameters">(thirdusrname,thirdpsswrd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testNG.Day2.m90(Day2.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dpmt-class-failed -->
+          <div class="suite-Loan_Dpmt-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.Day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="m1">
+                  </a> <!-- m1 -->
+                  <span class="method-name">m1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m2">
+                  </a> <!-- m2 -->
+                  <span class="method-name">m2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dpmt-class-passed -->
+          <div class="suite-Loan_Dpmt-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.Day2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="l3(qaclickacademy.com)">
+                  </a> <!-- l3(qaclickacademy.com) -->
+                  <span class="method-name">l3</span>
+                  <span class="parameters">(qaclickacademy.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dpmt-class-passed -->
+          <div class="suite-Loan_Dpmt-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.TestNGAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m6">
+                  </a> <!-- m6 -->
+                  <span class="method-name">m6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="m7">
+                  </a> <!-- m7 -->
+                  <span class="method-name">m7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dpmt-class-passed -->
+          <div class="suite-Loan_Dpmt-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.Day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="m4carloan(qaclickacademy.com, admin123, test)">
+                  </a> <!-- m4carloan(qaclickacademy.com, admin123, test) -->
+                  <span class="method-name">m4carloan</span>
+                  <span class="parameters">(qaclickacademy.com,admin123,test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loan_Dpmt-class-passed -->
+        </div> <!-- panel Loan_Dpmt -->
+        <div panel-name="test-xml-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\KSHARM23\eclipse-workspace\Seleniumpractice\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Loan Dpmt&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;qaclickacademy.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testNG.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Personal Loan&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.TestNGAnnotations&quot;/&gt;
+      &lt;class name=&quot;testNG.Day2&quot;/&gt;
+      &lt;class name=&quot;testNG.Day1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Personal Loan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Car Loan&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;test&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin123&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.Day3&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;m5carloanlogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNG.Day3 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Car Loan --&gt;
+&lt;/suite&gt; &lt;!-- Loan Dpmt --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Loan Dpmt</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Personal Loan (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Car Loan (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Loan Dpmt</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">m2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">m4carloan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">m7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Loan Dpmt</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Loan_Dpmt');
+function tableData_Loan_Dpmt() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'm90')
+data.setCell(0, 2, 'testNG.Day2')
+data.setCell(0, 3, 16);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'testNG.TestNGAnnotations')
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'm4carloan')
+data.setCell(2, 2, 'testNG.Day3')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'l3')
+data.setCell(3, 2, 'testNG.Day2')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'm2')
+data.setCell(4, 2, 'testNG.Day1')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'm7')
+data.setCell(5, 2, 'testNG.TestNGAnnotations')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'm6')
+data.setCell(6, 2, 'testNG.TestNGAnnotations')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'm1')
+data.setCell(7, 2, 'testNG.Day1')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'm90')
+data.setCell(8, 2, 'testNG.Day2')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'm90')
+data.setCell(9, 2, 'testNG.Day2')
+data.setCell(9, 3, 1);
+window.suiteTableData['Loan_Dpmt']= { tableData: data, tableDiv: 'times-div-Loan_Dpmt'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 ms</span>
+              <div id="times-div-Loan_Dpmt">
+              </div> <!-- times-div-Loan_Dpmt -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Loan Dpmt</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Loan_Dpmt" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Day3</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">m5carloanlogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.TestNGAnnotations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">m6</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">m7</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Day2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">m20</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">m09</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">l3(qaclickacademy.com)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">m22</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">m09</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">m90(firstusername, firstpsswrd)</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">m22</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">m90(secondusername, secondpsswrd)</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">m09</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">m22</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">m09</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">m90(thirdusrname, thirdpsswrd)</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">m22</span>
+                <span class="method-start">158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">m29</span>
+                <span class="method-start">159 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">m1</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">m2</span>
+                <span class="method-start">163 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Day3</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">m5carloan</span>
+                <span class="method-start">309 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">m4carloan(qaclickacademy.com, admin123, test)</span>
+                <span class="method-start">313 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.Day2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">m4</span>
+                <span class="method-start">337 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
